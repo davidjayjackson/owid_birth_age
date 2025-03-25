@@ -1,0 +1,79 @@
+{
+  "chart": {
+    "title": "Share of births by age of mother",
+    "subtitle": "Estimated share of total births by the age of the mother.",
+    "citation": "UN, World Population Prospects (2024)",
+    "originalChartUrl": "https://ourworldindata.org/grapher/share-of-births-by-age-of-mother?v=1&csvType=full&useColumnShortNames=false",
+    "selection": [
+      "United States"
+    ]
+  },
+  "columns": {
+    "Share of births by mothers aged 10-19": {
+      "titleShort": "Share of births by mothers aged 10-19",
+      "titleLong": "Share of births by mothers aged 10-19 - UN WPP",
+      "descriptionShort": "Number of births recorded annually, based on the civil calendar year, spanning from January 1 to December 31.",
+      "descriptionProcessing": "Values calculated by Our World in Data based on UN WPP data.",
+      "shortUnit": "%",
+      "unit": "%",
+      "timespan": "1950-2023",
+      "type": "Numeric",
+      "owidVariableId": 1014771,
+      "shortName": "share__decadal_age_10_19",
+      "lastUpdated": "2024-10-01",
+      "citationShort": "UN, World Population Prospects (2024) – processed by Our World in Data",
+      "citationLong": "UN, World Population Prospects (2024) – processed by Our World in Data. “Share of births by mothers aged 10-19 – UN WPP” [dataset]. United Nations, “World Population Prospects” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1014771.metadata.json"
+    },
+    "Share of births by mothers aged 20-29": {
+      "titleShort": "Share of births by mothers aged 20-29",
+      "titleLong": "Share of births by mothers aged 20-29 - UN WPP",
+      "descriptionShort": "Number of births recorded annually, based on the civil calendar year, spanning from January 1 to December 31.",
+      "descriptionProcessing": "Values calculated by Our World in Data based on UN WPP data.",
+      "shortUnit": "%",
+      "unit": "%",
+      "timespan": "1950-2023",
+      "type": "Numeric",
+      "owidVariableId": 1014773,
+      "shortName": "share__decadal_age_20_29",
+      "lastUpdated": "2024-10-01",
+      "citationShort": "UN, World Population Prospects (2024) – processed by Our World in Data",
+      "citationLong": "UN, World Population Prospects (2024) – processed by Our World in Data. “Share of births by mothers aged 20-29 – UN WPP” [dataset]. United Nations, “World Population Prospects” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1014773.metadata.json"
+    },
+    "Share of births by mothers aged 30-39": {
+      "titleShort": "Share of births by mothers aged 30-39",
+      "titleLong": "Share of births by mothers aged 30-39 - UN WPP",
+      "descriptionShort": "Number of births recorded annually, based on the civil calendar year, spanning from January 1 to December 31.",
+      "descriptionProcessing": "Values calculated by Our World in Data based on UN WPP data.",
+      "shortUnit": "%",
+      "unit": "%",
+      "timespan": "1950-2023",
+      "type": "Numeric",
+      "owidVariableId": 1014772,
+      "shortName": "share__decadal_age_30_39",
+      "lastUpdated": "2024-10-01",
+      "citationShort": "UN, World Population Prospects (2024) – processed by Our World in Data",
+      "citationLong": "UN, World Population Prospects (2024) – processed by Our World in Data. “Share of births by mothers aged 30-39 – UN WPP” [dataset]. United Nations, “World Population Prospects” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1014772.metadata.json"
+    },
+    "Share of births by mothers aged 40-49": {
+      "titleShort": "Share of births by mothers aged 40-49",
+      "titleLong": "Share of births by mothers aged 40-49 - UN WPP",
+      "descriptionShort": "Number of births recorded annually, based on the civil calendar year, spanning from January 1 to December 31.",
+      "descriptionProcessing": "Values calculated by Our World in Data based on UN WPP data.",
+      "shortUnit": "%",
+      "unit": "%",
+      "timespan": "1950-2023",
+      "type": "Numeric",
+      "owidVariableId": 1014775,
+      "shortName": "share__decadal_age_40_49",
+      "lastUpdated": "2024-10-01",
+      "citationShort": "UN, World Population Prospects (2024) – processed by Our World in Data",
+      "citationLong": "UN, World Population Prospects (2024) – processed by Our World in Data. “Share of births by mothers aged 40-49 – UN WPP” [dataset]. United Nations, “World Population Prospects” [original data].",
+      "fullMetadata": "https://api.ourworldindata.org/v1/indicators/1014775.metadata.json"
+    }
+  },
+  "dateDownloaded": "2025-03-25",
+  "activeFilters": {}
+}
