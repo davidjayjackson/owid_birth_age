@@ -52,3 +52,23 @@ ggplot(tunisia) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_30_39,g
 ```{r}
 ggplot(tunisia) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_40_49,group=entity,colour=entity))
 ```
+
+# Income Groups
+
+```{r} 
+income <- mothers |> 
+  filter(str_detect(entity, "income"))
+
+```
+```{r}
+ggplot(income) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_10_19,group=entity,colour=entity))
+```
+```{r}
+ggplot(income) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_20_29,group=entity,colour=entity))
+```
+```{r}
+ggplot(income) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_30_39,group=entity,colour=entity))
+```
+```{r}
+ggplot(income) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_40_49,group=entity,colour=entity))
+```
