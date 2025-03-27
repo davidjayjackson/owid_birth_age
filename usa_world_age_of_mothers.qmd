@@ -1,0 +1,54 @@
+---
+title: "Share of Births by Age Of Mother"
+format: html
+editor: visual
+---
+
+## Quarto
+
+```{r}
+library(tidyverse)
+library(janitor)
+library(scales)
+```
+# Pull In Data
+
+```{r}
+mothers <- read_csv('./share-of-births-by-age-of-mother.csv') |> clean_names()
+```
+
+# US vs World
+
+```{r} 
+usa <- mothers |>filter(entity =="United States" | entity=="World")
+```
+```{r}
+ggplot(usa) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_10_19,group=entity,colour=entity))
+```
+```{r}
+ggplot(usa) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_20_29,group=entity,colour=entity))
+```
+```{r}
+ggplot(usa) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_30_39,group=entity,colour=entity))
+```
+```{r}
+ggplot(usa) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_40_49,group=entity,colour=entity))
+```
+
+# Tunisia va World
+
+```{r} 
+tunisia <- mothers |>filter(entity =="Tunisia" | entity=="World")
+```
+```{r}
+ggplot(tunisia) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_10_19,group=entity,colour=entity))
+```
+```{r}
+ggplot(tunisia) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_20_29,group=entity,colour=entity))
+```
+```{r}
+ggplot(tunisia) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_30_39,group=entity,colour=entity))
+```
+```{r}
+ggplot(tunisia) + geom_line(aes(x=year,y=share_of_births_by_mothers_aged_40_49,group=entity,colour=entity))
+```
